@@ -55,6 +55,9 @@ Both of the implementations above allow for medical teams to get answers regardi
 <li>*NOTE: there is no minimum length for the password; however it would not be a good idea to keep it empty</li>
 </ol>
 </ol>
-<li>Once all the previous steps are completed and validated 
+</ol>
+<li>Once all the previous steps are completed and validated, you can execute the program locally
+<ol type="a">
+<li>shiny run --reload app.py<//li>
 </ol>
 </ol>
