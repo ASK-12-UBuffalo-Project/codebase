@@ -31,4 +31,7 @@ rsconnect-python		<- Necessary to deploy to shinyapps.io for POC implementation<
 <li>git clone https://github.com/ASK-12-UBuffalo-Project/codebase.git<//li>
 <li>cd codebase</li>
 </ol>
-<li>Clone the repository<//li>
+<li>Create the virtual environment using uv</li>
+<ol type="a">
+<li>uv venv<//li>
+</ol>
