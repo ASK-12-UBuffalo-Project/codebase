@@ -46,13 +46,13 @@ rsconnect-python		<- Necessary to deploy to shinyapps.io for POC implementation<
 <li>uv pip install -e <b>.</b><//li>
 <li>using a text editor, update and change the ask12.properties file<//li>
 <ol type="I">
-<li>set the order of subject info fields (e.g., "[str(input.dob()), str(input.id()), str(input.lname())]"<//li>
+<li>set the order of subject info fields (e.g., <b>"[str(input.dob()), str(input.id()), str(input.lname())]"</b>)<//li>
 <ol type="a">
-<li>*NOTE: the example shows the precise format of the text for that line; id is first name; this example was not used in the POC
+<li>*NOTE: the example shows the precise format of the text for that line; id is first name; this example was not used in the POC</li>
 </ol>
-<li>set the value for the password a medical individual must enter (e.g., "SomeWordYouWillRemember")
+<li>set the value for the password a medical individual must enter (e.g., <b>"SomeWordYouWillRemember"</b>)</li>
 <ol type="a">
-<li>*NOTE: there is no minimum length for the password; however it would not be a good idea to keep it empty
+<li>*NOTE: there is no minimum length for the password; however it would not be a good idea to keep it empty</li>
 </ol>
 </ol>
 </ol>
