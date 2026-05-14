@@ -1,5 +1,5 @@
 # Overview
-Welcome to the Adherence Starts with Knowledge - 12 (ASK-12) Comprehensive tool, written collaboratively in BMI-507 at the University of Buffalo.<br>
+Welcome to the Adherence Starts with Knowledge - 12 (ASK-12) Comprehensive tool, written collaboratively in BMI-507 at the University of Buffalo.<br><br>
 A proof-of-concept (POC) can be found deployed on shinyapps.io here: https://adherencestartswithknowledge12ubuffalo.shinyapps.io/ask-12/<br><br>
 Authors include (in alphabetical order):<br>
 Vida Bodaghinamileh<br>
@@ -18,7 +18,7 @@ Both of the implementations above allow for medical teams to get answers regardi
 <li> virtual environment for python: uv
 </ol>
 
-# Python Library Prerequisites; all are included in the requirements.txt inside survey
+# Python Library Prerequisites;<br>(all are included in the requirements.txt inside survey)</br>
 <b>shiny</b> 							<- Necessary to use Shiny For Python in deployment<br>
 <b>shiny_validate</b> 			<- Helps to validate entries by the subject, ensuring that they fill out the entire form<br>
 <b>pandas</b> 						<- Utilized to organize data and read/write from CSV used in POC<br>
