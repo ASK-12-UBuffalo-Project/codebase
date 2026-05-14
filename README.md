@@ -56,8 +56,8 @@ Both of the implementations above allow for medical teams to get answers regardi
 </ol>
 </ol>
 </ol>
+</ol>
 <li>Once all the previous steps are completed and validated, you can execute the program locally
 <ol type="a">
 <li>shiny run --reload app.py<//li>
-</ol>
 </ol>
