@@ -12,7 +12,13 @@ ASK-12 is a brief, 12-item validated questionnaire designed to identify patient-
 
 Both of the implementations above allow for medical teams to get answers regarding adherence. ASK-20, however, is solely a paper form and requires manual interpretation by the medical team. GSK's ASK-12 implementation is publicly available, but requires an account creation and other settings for use. Our implementation is to provide a platform-agnostic tool (i.e., it works on all browsers on computers, tablets and smart phones). It can be utilized by  both the subject and the medical team. It persists subject information in an encrypted manner in this POC implementation, ensuring patient privacy. Both the encryption pattern and the password are maintained in a properties file. The properties file shown here is empty to ensure that the version publicly available for use and feedback is secured in its deployment.
 
-# Prerequisites
+# Software Prerequisites
+<ol type="1">
+<li> python itself: python 3
+<li> virtual environment for python: uv
+</ol>
+
+# Python Library Prerequisites
 shiny 						<- Necessary to use Shiny For Python in deployment<br>
 shiny_validate			<- Helps to validate entries by the subject, ensuring that they fill out the entire form<br>
 pandas						<- Utilized to organize data and read/write from CSV used in POC<br>
@@ -23,5 +29,6 @@ rsconnect-python		<- Necessary to deploy to shinyapps.io for POC implementation<
 <li>Clone the repository<//li>
 <ol type="a">
 <li>git clone https://github.com/ASK-12-UBuffalo-Project/codebase.git<//li>
+<li>cd codebase</li>
 </ol>
-
+<li>Clone the repository<//li>
