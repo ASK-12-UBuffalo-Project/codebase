@@ -1,5 +1,7 @@
 # Overview
-Welcome to the Adherence Starts with Knowledge - 12 (ASK-12) Comprehensive tool written collaboratively in BMI-507 at the University of Buffalo.  Authors include (in alphabetical order):<br>
+Welcome to the Adherence Starts with Knowledge - 12 (ASK-12) Comprehensive tool written collaboratively in BMI-507 at the University of Buffalo.<br>
+A proof-of-concept (POC) can be found deployed on shinyapps.io here: https://adherencestartswithknowledge12ubuffalo.shinyapps.io/ask-12/<br>
+Authors include (in alphabetical order):<br>
 Vida Bodaghinamileh<br>
 Stephen Granite<br>
 Jahanzab Salim<br>
