@@ -19,9 +19,10 @@ Both of the implementations above allow for medical teams to get answers regardi
 </ol>
 
 # Python Library Prerequisites;<br>(all are included in the requirements.txt inside survey)</br>
+<b>jproperties</b> 					<- Utilized to read properties files for encryption and password<br>
+<b>pandas</b> 						<- Utilized to organize data and read/write from CSV used in POC<br>
 <b>shiny</b> 							<- Necessary to use Shiny For Python in deployment<br>
 <b>shiny_validate</b> 			<- Helps to validate entries by the subject, ensuring that they fill out the entire form<br>
-<b>pandas</b> 						<- Utilized to organize data and read/write from CSV used in POC<br>
 <b>rsconnect-python</b>	 	<- Necessary to deploy to shinyapps.io for POC implementation<br>
 
 # Deployment
@@ -43,10 +44,10 @@ Both of the implementations above allow for medical teams to get answers regardi
 <ol type="a">
 <li>cd survey<//li>
 <ol type="a">
-<li>uv pip install -e <b>.</b><//li>
+<li>uv pip install -r requirements.txt<//li>
 <li>Using a text editor, update and change the ask12.properties file<//li>
 <ol type="I">
-<li>Set the order of subject info fields (e.g., <b>"[str(input.dob()), str(input.id()), str(input.lname())]"</b>)<//li>
+<li>Set the order of subject info fields (e.g., <b>wordOne = lname, wordTwo = id, wordThree = dob</b>)<//li>
 <ol type="a">
 <li>*NOTE: the example shows the precise format of the text for that line; id is first name; this example was not used in the POC</li>
 </ol>
@@ -60,4 +61,7 @@ Both of the implementations above allow for medical teams to get answers regardi
 <li>Once all the previous steps are completed and validated, you can execute the program locally
 <ol type="a">
 <li>shiny run --reload app.py<//li>
+<ol type="a">
+<li>*NOTE: the tool will spin up and be running at http://localhost:8000</li>
+</ol>
 </ol>

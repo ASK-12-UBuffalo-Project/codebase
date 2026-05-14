@@ -1,4 +1,5 @@
-shiny
-shiny_validate
+jproperties
 pandas
 rsconnect-python
+shiny
+shiny_validate
