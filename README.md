@@ -1,9 +1,9 @@
 # Overview
-Welcome to the Adherence Starts with Knowledge - 12 (ASK-12) Comprehensive tool written collaboratively in BMI-507 at the University of Buffalo.  Authors include (in alphabetical order):
-Vida Bodaghinamileh
-Stephen Granite
-Jahanzab Salim
-Inev Vemury
+Welcome to the Adherence Starts with Knowledge - 12 (ASK-12) Comprehensive tool written collaboratively in BMI-507 at the University of Buffalo.  Authors include (in alphabetical order):<br>
+Vida Bodaghinamileh<br>
+Stephen Granite<br>
+Jahanzab Salim<br>
+Inev Vemury<br>
 
 # Purpose
 ASK-12 is a brief, 12-item validated questionnaire designed to identify patient-specific barriers to medication adherence (https://eprovide.mapi-trust.org/instruments/adherence-starts-with-knowledge-12). It was developed and web-enabled by GlaxoSmithKline Research and Development Limited (GSK). It is a shortened, practical version of the Adherence Starts with Knowledge 20 (ASK-20) survey focusing on three main domains: inconvenience/forgetfulness, treatment beliefs, and behavior.  The ASK-20 is a validated, 20-item patient-reported survey designed to identify specific barriers to medication adherence across chronic diseases (https://www.sralab.org/rehabilitation-measures/adherence-starts-knowledge-20). Both are intended to evaluate patient behaviors and beliefs to identify why they may not follow a prescribed treatment plan.
