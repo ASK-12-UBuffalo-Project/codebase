@@ -44,6 +44,17 @@ rsconnect-python		<- Necessary to deploy to shinyapps.io for POC implementation<
 <li>cd survey<//li>
 <ol type="a">
 <li>uv pip install -e <b>.</b><//li>
+<li>using a text editor, update and change the ask12.properties file<//li>
+<ol>
+<li>set the order of subject info fields (e.g., "[str(input.dob()), str(input.id()), str(input.lname())]"<//li>
+<ol>
+<li>*NOTE: the example shows the precise format of the text for that line; id is first name; this example was not used in the POC
+</ol>
+<li>set the value for the password a medical individual must enter (e.g., "SomeWordYouWillRemember")
+<ol>
+<li>*NOTE: there is no minimum length for the password; however it would not be a good idea to keep it empty
+</ol>
+</ol>
 </ol>
 </ol>
 </ol>
