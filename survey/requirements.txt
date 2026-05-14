@@ -1,0 +1,4 @@
+shiny
+shiny_validate
+pandas
+rsconnect-python
