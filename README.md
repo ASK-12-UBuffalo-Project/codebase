@@ -18,11 +18,11 @@ Both of the implementations above allow for medical teams to get answers regardi
 <li> virtual environment for python: uv
 </ol>
 
-# Python Library Prerequisites
-shiny 						<- Necessary to use Shiny For Python in deployment<br>
-shiny_validate			<- Helps to validate entries by the subject, ensuring that they fill out the entire form<br>
-pandas						<- Utilized to organize data and read/write from CSV used in POC<br>
-rsconnect-python		<- Necessary to deploy to shinyapps.io for POC implementation<br>
+# Python Library Prerequisites; all are included in the requirements.txt inside survey
+<b>shiny</b> 							<- Necessary to use Shiny For Python in deployment<br>
+<b>shiny_validate</b> 			<- Helps to validate entries by the subject, ensuring that they fill out the entire form<br>
+<b>pandas</b> 						<- Utilized to organize data and read/write from CSV used in POC<br>
+<b>rsconnect-python</b>	 	<- Necessary to deploy to shinyapps.io for POC implementation<br>
 
 # Deployment
 <ol type="1">
@@ -44,16 +44,17 @@ rsconnect-python		<- Necessary to deploy to shinyapps.io for POC implementation<
 <li>cd survey<//li>
 <ol type="a">
 <li>uv pip install -e <b>.</b><//li>
-<li>using a text editor, update and change the ask12.properties file<//li>
+<li>Using a text editor, update and change the ask12.properties file<//li>
 <ol type="I">
-<li>set the order of subject info fields (e.g., <b>"[str(input.dob()), str(input.id()), str(input.lname())]"</b>)<//li>
+<li>Set the order of subject info fields (e.g., <b>"[str(input.dob()), str(input.id()), str(input.lname())]"</b>)<//li>
 <ol type="a">
 <li>*NOTE: the example shows the precise format of the text for that line; id is first name; this example was not used in the POC</li>
 </ol>
-<li>set the value for the password a medical individual must enter (e.g., <b>"SomeWordYouWillRemember"</b>)</li>
+<li>Set the value for the password a medical individual must enter (e.g., <b>"SomeWordYouWillRemember"</b>)</li>
 <ol type="a">
 <li>*NOTE: there is no minimum length for the password; however it would not be a good idea to keep it empty</li>
 </ol>
 </ol>
+<li>Once all the previous steps are completed and validated 
 </ol>
 </ol>
