@@ -31,7 +31,7 @@ rsconnect-python		<- Necessary to deploy to shinyapps.io for POC implementation<
 <li>git clone https://github.com/ASK-12-UBuffalo-Project/codebase.git<//li>
 <li>cd codebase</li>
 </ol>
-<li>Create the virtual environment using uv and activate it</li>
+<li>Create the virtual environment using uv and activate it (a or b depending upon OS)</li>
 <ol type="a">
 <li>uv venv<//li>
 <ol type="a">
@@ -41,8 +41,9 @@ rsconnect-python		<- Necessary to deploy to shinyapps.io for POC implementation<
 </ol>
 <li>Change to the survey directory, install the dependencies and edit the properties file</li>
 <ol type="a">
-<li>cd sruvey<//li>
+<li>cd survey<//li>
 <ol type="a">
+<li>uv pip install -e <b>.</b><//li>
 </ol>
 </ol>
 </ol>
