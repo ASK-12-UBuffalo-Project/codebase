@@ -18,4 +18,5 @@ shiny_validate			<- Helps to validate entries by the subject, ensuring that they
 pandas						<- Utilized to organize data and read/write from CSV used in POC<br>
 rsconnect-python		<- Necessary to deploy to shinyapps.io for POC implementation<br>
 
-#
+# Deployment
+
