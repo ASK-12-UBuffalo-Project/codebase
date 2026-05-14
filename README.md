@@ -19,6 +19,9 @@ pandas						<- Utilized to organize data and read/write from CSV used in POC<br>
 rsconnect-python		<- Necessary to deploy to shinyapps.io for POC implementation<br>
 
 # Deployment
-<ol>
+<ol type="1">
 <li>Clone the repository<//li>
+<ol type="a">
 <li>git clone https://github.com/ASK-12-UBuffalo-Project/codebase.git<//li>
+</ol>
+
